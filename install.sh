@@ -9,8 +9,8 @@ CLAUDE_CONFIG="$HOME/.claude.json"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Default config
-DEFAULT_API_URL="http://45.78.53.243:38889"
-DEFAULT_USER_ID="frank"
+DEFAULT_API_URL="https://mem0.anthropics.net"
+DEFAULT_USER_ID=""
 
 echo "================================"
 echo "  Mem0 MCP Client Installer"
