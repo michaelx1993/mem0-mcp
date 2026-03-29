@@ -9,10 +9,10 @@ Usage in ~/.claude.json:
       "command": "python3",
       "args": ["/path/to/mem0-mcp-client.py"],
       "env": {
-        "MEM0_API_URL": "http://host:8889",
-        "MEM0_USERNAME": "frank",
-        "MEM0_PASSWORD": "aiwozhonghua",
-        "MEM0_USER_ID": "frank"
+        "MEM0_API_URL": "https://your-server",
+        "MEM0_USERNAME": "your-username",
+        "MEM0_PASSWORD": "your-password",
+        "MEM0_USER_ID": "your-user-id"
       }
     }
   }
@@ -25,7 +25,7 @@ import urllib.request
 import urllib.error
 import base64
 
-API_URL = os.environ.get("MEM0_API_URL", "http://192.168.12.226:8889")
+API_URL = os.environ.get("MEM0_API_URL", "")
 USERNAME = os.environ.get("MEM0_USERNAME", "")
 PASSWORD = os.environ.get("MEM0_PASSWORD", "")
 USER_ID = os.environ.get("MEM0_USER_ID", "default")

@@ -9,7 +9,7 @@ CLAUDE_CONFIG="$HOME/.claude.json"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Default config
-DEFAULT_API_URL="https://mem0.anthropics.net"
+DEFAULT_API_URL=""
 DEFAULT_USER_ID=""
 
 echo "================================"
